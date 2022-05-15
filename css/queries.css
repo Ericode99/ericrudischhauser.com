@@ -1,0 +1,35 @@
+@media (max-width: 69em) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 39em) {
+  html {
+    font-size: 50%;
+  }
+
+  .nav-btn:link,
+  .nav-btn:visited {
+    margin-left: 3.2rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    margin-right: 3.2rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .grid-img {
+    width: 40rem;
+  }
+
+  .project-data {
+    width: 40rem;
+  }
+
+  .profile-text {
+    padding: 0 1.2rem;
+  }
+}

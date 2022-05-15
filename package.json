@@ -1,0 +1,12 @@
+{
+  "name": "finance-web-app",
+  "source": "index.html",
+  "browserslist": "since 2015",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
